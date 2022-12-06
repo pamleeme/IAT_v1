@@ -3,37 +3,40 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 
 	return iatExtension({
 		category1 : {
-			name : 'Black people', //Will appear in the data.
+			name : 'Male', //Will appear in the data.
 			title : {
-				media : {word : 'Black people'}, //Name of the category presented in the task.
+				media : {word : 'Male'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    {image : 'black1.jpg'}, 
-    			{image : 'black2.jpg'}, 
-    			{image : 'black3.jpg'}, 
-    			{image : 'black4.jpg'}, 
-    			{image : 'black5.jpg'}, 
-    			{image : 'black6.jpg'}
+    		    {image : 'Male1.jpg'}, 
+    			{image : 'Male2.jpg'}, 
+    			{image : 'Male3.jpg'}, 
+    			{image : 'Male4.jpg'}, 
+    			{image : 'Male5.jpg'}, 
+    			{image : 'Male6.jpg'},
+			{image : 'Male7.jpg'},	
+			{image : 'Male8.jpg'}
 			], 
 			//Stimulus css (style)
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},	
 		category2 :	{
-			name : 'White people', //Will appear in the data.
+			name : 'Female', //Will appear in the data.
 			title : {
-				media : {word : 'White people'}, //Name of the category presented in the task.
+				media : {word : 'Female'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    {image : 'yf1.jpg'}, 
-    			{image : 'yf4.jpg'}, 
-    			{image : 'yf5.jpg'}, 
-    			{image : 'ym2.jpg'}, 
-    			{image : 'ym3.jpg'}, 
-    			{image : 'ym5.jpg'}			], 
+    		    {image : 'Female1.jpg'}, 
+    			{image : 'Female2.jpg'}, 
+    			{image : 'Female3.jpg'}, 
+    			{image : 'Female4.jpg'}, 
+    			{image : 'Female5.jpg'}, 
+    			{image : 'Female6.jpg'}			
+			], 
 			//Stimulus css
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},	
