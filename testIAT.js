@@ -42,7 +42,7 @@ define(['pipAPI', 'https://github.com/pamleeme/IAT_v1/blob/main/IATAPI.js'], fun
 		},	
 
 		base_url : {//Where are your images at?
-			image : 'https://baranan.github.io/minno-tasks/images/'
+			image : 'https://github.com/pamleeme/IAT_v1/tree/main/images'
 		} 
 	});
 });
