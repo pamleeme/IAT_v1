@@ -34,8 +34,10 @@ define(['pipAPI', 'https://pamleeme.github.io/IAT_v1/IATAPI.js'], function(APICo
     			{image : 'Female2.jpg'}, 
     			{image : 'Female3.jpg'}, 
     			{image : 'Female4.jpg'}, 
-    			{image : 'Female5.jpg'}, 
-    			{image : 'Female6.jpg'}			
+    			{image : 'Female5.jpg'},
+			{image : 'Female6.jpg'},
+			{image : 'Female7.jpg'},
+    			{image : 'Female8.jpg'}			
 			], 
 			//Stimulus css
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
