@@ -74,42 +74,42 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			},
 			attribute1 :
 			{
-				name : 'Male',
+				name : 'Career',
 				title : {
-					media : {word : 'Male'},
+					media : {word : 'Career'},
 					css : {color:'#0000FF','font-size':'1.8em'},
 					height : 4 //Used to position the "Or" in the combined block.
 				},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word: 'Man'},
-					{word: 'Boy'},
-					{word: 'Macho'},
-					{word: 'Mister'},
-					{word: 'Gentleman'},
-					{word: 'Masculine'},
-					{word: 'Sir'},
-					{word: 'Father'}
+					{word: 'Promotion'},
+					{word: 'Bonus'},
+					{word: 'Salary'},
+					{word: 'Over-time'},
+					{word: 'Occupation'},
+					{word: 'Task'},
+					{word: 'Job'},
+					{word: 'Internship'}
 				],
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'2.3em'}
 			},
 			attribute2 :
 			{
-				name : 'Female',
+				name : 'Family',
 				title : {
-					media : {word : 'Female'},
+					media : {word : 'Family'},
 					css : {color:'#0000FF','font-size':'1.8em'},
 					height : 4 //Used to position the "Or" in the combined block.
 				},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word: 'Woman'},
-					{word: 'Girl'},
-					{word: 'Demure'},
-					{word: 'Miss'},
-					{word: 'Madam'},
-					{word: 'Pretty'},
-					{word: 'Lady'},
-					{word: 'Mother'}
+					{word: 'Household'},
+					{word: 'Generations'},
+					{word: 'Relatives'},
+					{word: 'Siblings'},
+					{word: 'Parenthood'},
+					{word: 'Grandparents'},
+					{word: 'Auntie'},
+					{word: 'Nephew'}
 				],
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'2.3em'}
