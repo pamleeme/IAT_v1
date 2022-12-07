@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://github.com/pamleeme/IAT_v1/blob/main/IATAPI.js'], function(APIConstructor, iatExtension){
+define(['pipAPI', 'https://pamleeme.github.io/IAT_v1/IATAPI.js'], function(APIConstructor, iatExtension){
     var API = new APIConstructor();
 
 	return iatExtension({
