@@ -17,7 +17,7 @@ define(['pipAPI', 'https://github.com/pamleeme/IAT_v1/blob/main/IATAPI.js'], fun
     			{image : 'Male5.jpg'}, 
     			{image : 'Male6.jpg'},
 			{image : 'Male7.jpg'},	
-			{image : 'Male8.jpg'}
+			{image : 'Male8.jfif'}
 			], 
 			//Stimulus css (style)
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
